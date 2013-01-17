@@ -24,6 +24,12 @@ Like [https://github.com/rubygems/rubygems-mirror](rubygems-mirror), this reads 
     - rails
 ```
 
+And then run:
+
+```
+$ gem-sparse-mirror
+```
+
 This will resolve all dependencies of `rails` and `rake` and sync all of them, but never sync `mail` (for example, if you ship your own version).
 
 This script syncs _all_ versions of the found gems.

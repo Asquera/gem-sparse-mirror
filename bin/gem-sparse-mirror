@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'gem-sparse-mirror/command'
+
+Gem::SparseMirror::Command.new.execute

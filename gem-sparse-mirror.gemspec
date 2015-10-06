@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["florian.gilcher@asquera.de"]
   gem.description   = %q{Builds a sparse rubygems mirror that contains all dependencies of the included gems.}
   gem.summary       = %q{Builds a sparse rubygems mirror that contains all dependencies of the included gems.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/Asquera/gem-sparse-mirror"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
